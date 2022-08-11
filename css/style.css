@@ -39,7 +39,8 @@ background-color:red;
 justify-content: center;
 }
 
-.container.hero{
-  background-image: ;
-  height: 500px;
+.hero{
+  background-image:url('background-image') ;
+    background-repeat: no-repeat;
+    background-size: ;
 }
