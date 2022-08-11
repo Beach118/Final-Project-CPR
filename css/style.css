@@ -3,13 +3,33 @@ body {
 }
 .logo{ 
     justify-content: left;
-    max-width: 150px; 
+    max-width: 200px; 
     height: auto;
 }
-.nav-link{
-    color:#333333;
+
+.btn.btn-primary{
+    color:white;
+    justify-content: right;
 }
 
-.container header{
-display:inline-block;
+button{
+    color:#6505B5;
+    justify-content: right;  
+}
+.container-fluid.nav{
+    background-color: #6505B5;
+}
+
+.nav-link{
+    color:white;
+    background-color: #6505B5;
+}
+
+.nav{
+background-color: #6505B5;
+}
+
+.container.hero{
+  background-image: ;
+  height: 500px;
 }
