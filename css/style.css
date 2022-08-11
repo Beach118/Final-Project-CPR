@@ -8,16 +8,25 @@ body {
 }
 
 .btn.btn-primary{
+    background-color: #6505B5;
     color:white;
     justify-content: right;
 }
 
-button{
+.btn{
     color:#6505B5;
     justify-content: right;  
 }
-.container-fluid.nav{
+
+.btn.btn-secondary[
     background-color: #6505B5;
+    color:white;
+    justify-content: right;
+]
+.nav{
+    display: flex;
+    background-color: #6505B5;
+    justify-content: center;
 }
 
 .nav-link{
@@ -25,8 +34,9 @@ button{
     background-color: #6505B5;
 }
 
-.nav{
-background-color: #6505B5;
+.navcenter{
+background-color:red;
+justify-content: center;
 }
 
 .container.hero{
