@@ -18,15 +18,18 @@ body {
     justify-content: right;  
 }
 
-.btn.btn-secondary[
-    background-color: #6505B5;
-    color:white;
-    justify-content: right;
-]
+.btn.btn-secondary {
+    background-color:white;
+    color:#6505B5
+}
 .nav{
     display: flex;
     background-color: #6505B5;
-    justify-content: center;
+
+}
+nav-footer{
+    background-color: #6505B5;
+
 }
 
 .nav-link{
@@ -35,12 +38,19 @@ body {
 }
 
 .navcenter{
-background-color:red;
+background-color:#6505B5;
 justify-content: center;
 }
+.navleft{
+    background-color:#6505B5;
+    justify-content:left;
+    }
 
 .hero{
-  background-image:url('background-image') ;
-    background-repeat: no-repeat;
-    background-size: ;
+    max-width: 1440px;
+    max-height: 400px;
+}
+.heroimage{
+    max-width: 1000px;
+    height: auto;
 }
