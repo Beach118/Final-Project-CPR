@@ -1,0 +1,15 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.logo{ 
+    justify-content: left;
+    max-width: 150px; 
+    height: auto;
+}
+.nav-link{
+    color:#333333;
+}
+
+.container header{
+display:inline-block;
+}
