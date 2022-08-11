@@ -29,7 +29,8 @@ button{
 background-color: #6505B5;
 }
 
-.container.hero{
-  background-image: ;
-  height: 500px;
+.hero{
+  background-image:url('background-image') ;
+    background-repeat: no-repeat;
+    background-size: ;
 }
