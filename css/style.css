@@ -85,11 +85,14 @@ justify-content: center;
 .lead{ 
         display:flex;
         justify-content:end;
-        align-items:flex-end;
+        align-items:right;
         flex-direction: column;
         max-width: 590px;
         color:#252525;
     }
+
+.carousel-caption{
+}
 
 h1{
     color:#6505B5;
@@ -121,6 +124,7 @@ h1{
 
 h3{
     padding-bottom:20px;
+    padding-top: 20px;
     color:#6505B5;
     justify-content: center;
     align-items: center;

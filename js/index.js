@@ -1,3 +1,1 @@
-$('.carousel').carousel('cycle')({
-    interval: 2000
-  })
+$('.carousel').carousel('cycle')
