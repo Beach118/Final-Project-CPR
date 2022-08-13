@@ -4,19 +4,31 @@
   <title>Chicago Pet Rescue</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link href="css/style.css" rel="stylesheet" type="text/css">
+  <script src="/js/index.js"></script>
+  <script src="jquery-3.6.0.min.js"></script>
 </head>
 <body>
+  <script src="/js/index.js"></script>
+  <script src="jquery-3.6.0.min.js"></script>
+  
 
  <!--Header-->
- <div class="container header">
-  <img class="logo" src="images/Beige Brown Minimalist Pet Shop - Logo.png">
-  <button type="button" class="btn btn-primary justify-content-end">ADOPT</button>
-  <button type="button" class="btn btn-secondary">FOSTER</button>
+ <div class="container">
+  <nav class="navbar navbar-light justify-content-between">
+    <a class="navbar-brand" href="#"><img class="logo" src="images/CPR-Logo.png"></a>  
+    <div class="row">
+      <div class="col-4 top-buttons"> <button type="button" class="btn btn-primary">ADOPT</button>
+      </div>
+      <div class="col-4 top-buttons"> 
+        <button type="button" class="btn btn-secondary">FOSTER</button></div>
+    </div>
+  </nav>
+ 
  </div>
  
   <!--Navigation-->
  <div class="container-fluid nav"></div>
-    <nav class="nav justify-content-center navcenter">
+    <nav class="nav nav-collapse justify-content-center navcenter">
         <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Home</a>
         <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">About</a>
         <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Adoption</a>
@@ -30,29 +42,127 @@
   </div>
 
 
- <!--Hero Image-->
- <div class="container-fluid">
-  <img class="" src="images/hero-1.png">
+ <!--Hero Carousel-->
+ <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="images/hero-1.png" alt="First slide">
+      <div class="carousel-caption d-none d-md-block">
+        <div class="container Tron">
+          <h1 class="display-4">Adoption Saves Lives</h1>
+          <p class="lead">Our goal is to rescue as many animals as we can safely manage through foster homes. We rescue dogs, puppies, cats, kittens, birds and other small animals.</p>
+          <p class="lead">Learn More About Our Adoption Process.</p>
+          <a class="btn btn-primary btn-lg" href="#" role="button">Adoption</a>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/hero-2.png" alt="Second slide">
+      <div class="container Tron">
+        <h1 class="display-4">In-person events</h1>
+        <p class="lead">Chicago Pet Rescue is always on-the-go!
+          We’re constantly in motion, working to find both foster homes and permanent homes for animals in need.</p>
+        <p class="lead">Stay up-to-date on all of the latest rescue happenings!</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Events</a>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/hero-3.png" alt="Third slide">
+      <div class="container Tron">
+        <h1 class="display-4">Our Organization</h1>
+        <p class="lead">Chicago Pet Rescue is a 501c(3) non-profit, foster home and volunteer-based rescue, dedicated to rescuing stray and abandoned animals. We do not have a central "shelter" as most of our animals are placed in foster homes until forever homes can be found.  
+        </p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">About Us</a>
+    </div>
+    </div>
+  </div>
+  
 </div>
+ </div>
 
  <!--Main Content-->
- <div class="container header">
+ <div class="container-fluid searchbar">
+<div class="container search">
+  <h3>FIND YOUR PERFECT PET</h3>
+  <div class="row">
+    <div class="col-4">
+<a href=""><img src="images/Dog.png"></a>
+    </div>
+    <div class="col-4">
+  <a href=""><img src="images/Cat.png"></a>
+    </div>
+    <div class="col-4">
+  <a href=""><img src="images/Other.png"></a>
+    </div>
+  </div>
+  <nav class="navbar navbar-light">
+    <form class="form-inline">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn-primary btn-outline-success my-2 my-sm-0" type="submit">Filter</button>
+    </form>
+  </nav>
 </div>
 
+</div>
+
+ <!--Pet Carousel-->
+
+ <div class="container">
+
+
+ </div>
  
+ <!--Events-->
+<div class="container-fluid eventsbg">
+  <div class="container events">
+
+    <h3>Events</h3>
+
+    <div class="row">
+
+      <div class="col-6"><img src="images/events-img.png"></div>
+      <div class="col-6">
+        <div class="container Tron">
+          <h4>Our events are the best in the city!</h4>
+          <p class="lead">If you're a dog lover or a dog owner, you know that few things are better than fun events that welcome both you and your pooch. We have plenty of dog events to offer, ranging from unique doggie prom nights to surfing competitions to inspiring 5k runs and walks. 
+          </p>
+          <a class="btn btn-primary btn-lg" href="#" role="button">Learn More</a>
+        </div> </div>
+
+      </div>
+  
+
+  </div>
+</div>
+
 
  <!--Footer-->
- <div class="container-fluid nav-footer"></div>
+ <div class="container-fluid nav-footer">
+ <div class="container">
     <nav class="nav justify-content-left navleft">
         <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">About</a>
         <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Adoption</a>
         <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Foster</a>
         <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact Us</a>
       </nav>
+    </div>
+</div>
+
+  <div class="container  whitefooter">
+    <div class="row">
+      <div class="col-8"> <nav class="navbar navbar-light">
+        <a class="navbar-brand" href="#"><img class="logo" src="images/CPR-Logo.png"></a>  </div>
+      <div class="col-4 icons"><img class="social" src="images/fb.png">
+        <img class="social" src="images/twitter.png">
+        <img class="social" src="images/insta.png">
+        <img class="social" src="images/snap-chat.png"></div>
+    </div>
   </div>
-  <div class="container whitefooter">
-  <img class="logo" src="images/Beige Brown Minimalist Pet Shop - Logo.png">
-  </div>
+
 
 </body>
 </html>

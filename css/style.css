@@ -1,33 +1,52 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
+
+
 .logo{ 
     justify-content: left;
     max-width: 200px; 
     height: auto;
 }
 
+.col-4.top-buttons{
+    padding-top: 30px;
+    padding-left: 30px;
+    justify-content: right;
+    align-items: right;
+}
+
 .btn.btn-primary{
     background-color: #6505B5;
     color:white;
     justify-content: right;
+
+}
+.btn-primary {
+    color: #fff;
+    border-color: #6505B5; 
+}
+.btn-secondary {
+    border-color: #6505B5; 
+    color:#6505B5;
 }
 
 .btn{
-    color:#6505B5;
     justify-content: right;  
+    border-radius: 20px;
 }
 
 .btn.btn-secondary {
     background-color:white;
     color:#6505B5
 }
-.nav{
-    display: flex;
-    background-color: #6505B5;
+.true{
+    text-decoration: underline;
 
 }
-nav-footer{
+
+.nav{
+    display: flex;
     background-color: #6505B5;
 
 }
@@ -46,11 +65,101 @@ justify-content: center;
     justify-content:left;
     }
 
-.hero{
-    max-width: 1440px;
-    max-height: 400px;
+.jumbotron.customTron{
+        background-image: url('../images/hero-1.png');
+        height: 68vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom center ; 
 }
-.heroimage{
-    max-width: 1000px;
+
+    .container.Tron{
+    background-color: transparent !important;
+    display:flex;
+    justify-content:end;
+    align-items:flex-end;
+    flex-direction: column;
+    height: 100%;
+    }
+
+.lead{ 
+        display:flex;
+        justify-content:end;
+        align-items:flex-end;
+        flex-direction: column;
+        max-width: 590px;
+        color:#252525;
+    }
+
+h1{
+    color:#6505B5;
+
+}
+.carousel-control-prev{
+    color:#6505B5;
+}
+
+.searchbar{
+    background-color:#F7EEFF;
+}
+
+.container.search{ 
+    max-width:600px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.searchbar{
+    justify-content: center;
+    align-items: center;
+}
+.form-inline{
+    width:500px;
     height: auto;
+}
+
+h3{
+    padding-bottom:20px;
+    color:#6505B5;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h4{
+    padding-top: 20px;
+    color:#6505B5;
+}
+
+.eventsbg{
+    background-image: url('../images/peach-bg.png');
+        height: 60vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom center ; 
+}
+
+.container.events{
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-footer{
+    background-color: #6505B5;
+    display: flex;
+}
+
+
+.social{
+    max-width: 40px;
+    height: auto;
+    padding-top: 30px;
+    padding-left: 5px;
+}
+.col-4.icons{
+    display: inline;
+    justify-content:right;
+        align-items:right;
+        ;
 }
