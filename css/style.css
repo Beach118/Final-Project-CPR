@@ -3,167 +3,206 @@ body {
 }
 
 
-.logo{ 
+.logo {
     justify-content: left;
-    max-width: 200px; 
+    max-width: 200px;
     height: auto;
 }
 
-.col-4.top-buttons{
+.col-4.top-buttons {
     padding-top: 30px;
     padding-left: 30px;
     justify-content: right;
     align-items: right;
 }
 
-.btn.btn-primary{
+.btn.btn-primary {
     background-color: #6505B5;
-    color:white;
+    color: white;
     justify-content: right;
 
 }
+
 .btn-primary {
     color: #fff;
-    border-color: #6505B5; 
-}
-.btn-secondary {
-    border-color: #6505B5; 
-    color:#6505B5;
+    border-color: #6505B5;
 }
 
-.btn{
-    justify-content: right;  
+.btn-secondary {
+    border-color: #6505B5;
+    color: #6505B5;
+}
+
+.btn {
+    justify-content: right;
     border-radius: 20px;
 }
 
 .btn.btn-secondary {
-    background-color:white;
-    color:#6505B5
+    background-color: white;
+    color: #6505B5
 }
-.true{
+
+.true {
     text-decoration: underline;
 
 }
 
-.nav{
+.nav {
     display: flex;
     background-color: #6505B5;
 
 }
 
-.nav-link{
-    color:white;
+.nav-link {
+    color: white;
     background-color: #6505B5;
 }
 
-.navcenter{
-background-color:#6505B5;
-justify-content: center;
-}
-.navleft{
-    background-color:#6505B5;
-    justify-content:left;
-    }
-
-.jumbotron.customTron{
-        background-image: url('../images/hero-1.png');
-        height: 68vh;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: bottom center ; 
+.navcenter {
+    background-color: #6505B5;
+    justify-content: center;
 }
 
-    .container.Tron{
+.navleft {
+    background-color: #6505B5;
+    justify-content: left;
+}
+
+
+
+.jumbotron.customTron {
+    background-image: url('../images/hero-1.png');
+    height: 68vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+}
+
+.container.Tron {
     background-color: transparent !important;
-    display:flex;
-    justify-content:end;
-    align-items:flex-end;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
     flex-direction: column;
     height: 100%;
-    }
-
-.lead{ 
-        display:flex;
-        justify-content:end;
-        align-items:right;
-        flex-direction: column;
-        max-width: 590px;
-        color:#252525;
-    }
-
-.carousel-caption{
 }
 
-h1{
-    color:#6505B5;
-
-}
-.carousel-control-prev{
-    color:#6505B5;
-}
-
-.searchbar{
-    background-color:#F7EEFF;
+.lead {
+    display: flex;
+    justify-content: end;
+    align-items: right;
+    flex-direction: column;
+    max-width: 590px;
+    color: #252525;
 }
 
-.container.search{ 
-    max-width:600px;
+.carousel-caption {
+    justify-content: end;
+    align-items: right;
+}
+
+h1 {
+    color: #30167A;
+
+}
+
+.carousel-control-prev {
+    color: #30167A;
+}
+
+.searchbar {
+    background-color: #F7EEFF;
+
+}
+
+.search {
+    max-width: 600px;
     padding-top: 30px;
     padding-bottom: 30px;
     justify-content: center;
     align-items: center;
 }
-.searchbar{
-    justify-content: center;
-    align-items: center;
+
+.form-control {
+    width: 500px;
 }
-.form-inline{
-    width:500px;
+
+
+.form-inline {
+    padding-top: 30px;
+    width: 500px;
     height: auto;
 }
 
-h3{
-    padding-bottom:20px;
-    padding-top: 20px;
-    color:#6505B5;
+.animals {
+    max-width: 900px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     justify-content: center;
     align-items: center;
 }
 
 
-h4{
-    padding-top: 20px;
-    color:#6505B5;
+.pets {
+    padding-bottom: 60px;
 }
 
-.eventsbg{
+
+
+.carousel-indicators li {
+    background-color: #30167A;
+}
+
+h3 {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color: #30167A;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h4 {
+    padding-top: 20px;
+    color: #30167A;
+}
+
+.see-all {
+    width: 400px;
+    border-radius: 3PX solid #6505B5;
+    ;
+}
+
+.eventsbg {
     background-image: url('../images/peach-bg.png');
-        height: 60vh;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: bottom center ; 
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
 }
 
-.container.events{
+.events {
     justify-content: center;
     align-items: center;
 }
 
-.nav-footer{
+.nav-footer {
     background-color: #6505B5;
     display: flex;
 }
 
 
-.social{
+.social {
     max-width: 40px;
     height: auto;
     padding-top: 30px;
     padding-left: 5px;
 }
-.col-4.icons{
+
+.col-4.icons {
     display: inline;
-    justify-content:right;
-        align-items:right;
-        ;
+    justify-content: right;
+    align-items: right;
+    ;
 }
