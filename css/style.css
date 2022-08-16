@@ -69,10 +69,6 @@ body {
     justify-content: left;
 }
 
-
-
-
-
 .container.Tron {
     background-color: transparent !important;
     display: flex;
@@ -82,22 +78,26 @@ body {
     height: 100%;
 }
 .display-4{
-    text-align: left;
-
+    text-align: left !important;
+    display: flex;
+    justify-content:left 1;
+    justify-items: left !important;
 }
 
 .lead {
     display: flex;
-    justify-content: end;
-    text-align: left;
+    justify-content:left !;
+    text-align: left !important;
     flex-direction: column;
     max-width: 590px;
     color: #252525;
 }
 
 .carousel-caption {
-    justify-content: end;
-    align-items: right;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
 }
 
 h1 {
