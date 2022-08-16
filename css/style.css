@@ -71,13 +71,7 @@ body {
 
 
 
-.jumbotron.customTron {
-    background-image: url('../images/hero-1.png');
-    height: 68vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom center;
-}
+
 
 .container.Tron {
     background-color: transparent !important;
@@ -87,11 +81,15 @@ body {
     flex-direction: column;
     height: 100%;
 }
+.display-4{
+    text-align: left;
+
+}
 
 .lead {
     display: flex;
     justify-content: end;
-    align-items: right;
+    text-align: left;
     flex-direction: column;
     max-width: 590px;
     color: #252525;
@@ -135,24 +133,59 @@ h1 {
     height: auto;
 }
 
+
+.dropdown-menu{
+    overflow: scroll;
+}
+
 .animals {
-    max-width: 900px;
+
     padding-top: 30px;
     padding-bottom: 30px;
     justify-content: center;
     align-items: center;
+    text-align: center;
+   
 }
-
-
-.pets {
+.pets img{
+    max-width: 800px;
     padding-bottom: 60px;
+    
+}
+.pets-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.animals-carousel{
+ flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.center{
+    text-align: center;
+}
 
+.cta-animals{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
 
 .carousel-indicators li {
     background-color: #30167A;
 }
+
+.carousel-control-prev, .carousel-control-next{
+    background-color: transparent !important;
+    border: none !important;
+
+}
+.carousel-control-prev-icon{
+    color: #30167A !important;
+}
+
 
 h3 {
     padding-bottom: 20px;
@@ -172,6 +205,7 @@ h4 {
     width: 400px;
     border-radius: 3PX solid #6505B5;
     ;
+
 }
 
 .eventsbg {
