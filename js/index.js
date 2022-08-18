@@ -1,8 +1,6 @@
 $('.carousel').carousel()
 
 
-
-
 $(".nav-link").hover(function(){
   $ (this).css("text-decoration","underline") 
   $ (this).css("color","white")

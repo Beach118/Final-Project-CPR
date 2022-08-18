@@ -19,7 +19,7 @@
       <a class="navbar-brand" href="#"><img class="logo" src="images/CPR-Logo.png"></a>
       <div class="row">
         <div class="col-4 top-buttons">
-          <a href="#"><button type="button" class="btn btn-primary">ADOPT</button></a>
+          <a href="adoption.html"><button type="button" class="btn btn-primary">ADOPT</button></a>
         </div>
         <div class="col-4 top-buttons">
           <a href="#"></a><button type="button" class="btn btn-secondary">FOSTER</button></a>
@@ -30,18 +30,20 @@
   </div>
 
   <!--Navigation-->
-  <div class="container-fluid nav"></div>
-  <nav class="nav nav-collapse justify-content-center navcenter">
-    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Home</a>
-    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">About</a>
-    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Adoption</a>
-    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Available Animals</a>
-    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">How You Can Help</a>
-    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">News & Events</a>
-    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Resources</a>
-    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact Us</a>
-    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">FAQs</a>
-  </nav>
+  <div class="container-fluid nav">
+    <div class="container">
+    <nav class="nav nav-collapse justify-content-center navcenter">
+      <a class="nav-link" href="index.html" tabindex="-1" aria-disabled="true">Home</a>
+      <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">About</a>
+      <a class="nav-link" href="adoption.html" tabindex="-1" aria-disabled="true">Adoption</a>
+      <a class="nav-link" href="animals.html" tabindex="-1" aria-disabled="true">Available Animals</a>
+      <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">How You Can Help</a>
+      <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">News & Events</a>
+      <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Resources</a>
+      <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact Us</a>
+      <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">FAQs</a>
+    </nav>
+  </div>
   </div>
 
 
@@ -54,15 +56,17 @@
     </ol>
 
     <div class="carousel-inner">
-
       <div class="carousel-item active">
         <img class="d-block w-100" src="images/hero-1.png" alt="First slide">
         <div class="carousel-caption d-none d-md-block">
           <div class="container Tron">
             <h1 class="display-4">Adoption Saves Lives</h1>
-            <p class="lead">Our goal is to rescue as many animals as we can safely manage through foster homes. We rescue dogs, puppies, cats, kittens, birds and other small animals.</p>
-            <p class="lead">Learn More About Our Adoption Process.</p>
-            <a href="#"><button type="button" class="btn btn-primary">ADOPTION</button></a>
+            <p class="lead">Our goal is to rescue as many animals as we can safely manage through foster homes. We
+              rescue dogs, puppies, cats, kittens, birds and other small animals.
+            </br>
+          </br>
+            Learn More About Our Adoption Process.</p>
+            <a href="adoption.html"><button type="button" class="btn btn-primary">ADOPTION</button></a>
           </div>
         </div>
       </div>
@@ -72,7 +76,9 @@
         <div class="carousel-caption d-none d-md-block">
           <div class="container Tron">
             <h1 class="display-4">Our Organization</h1>
-            <p class="lead">Chicago Pet Rescue is a 501c(3) non-profit, foster home and volunteer-based rescue, dedicated to rescuing stray and abandoned animals. We do not have a central "shelter" as most of our animals are placed in foster homes until forever homes can be found.
+            <p class="lead">Chicago Pet Rescue is a 501c(3) non-profit, foster home and volunteer-based rescue,
+              dedicated to rescuing stray and abandoned animals. We do not have a central "shelter" as most of our
+              animals are placed in foster homes until forever homes can be found.
             </p>
             <div class="row">
               <div class="col-4 top-buttons">
@@ -107,7 +113,7 @@
 
 
   <!--Main Content-->
-  <div class="container-fluid searchbar">
+  <div class="container-fluid search-area">
     <div class="container search">
       <h3 class="center">FIND YOUR PERFECT PET</h3>
       <div class="row center">
@@ -121,6 +127,8 @@
           <a href=""><img src="images/Other.png"></a>
         </div>
       </div>
+
+
       <!--Filter-->
       <nav class="navbar navbar-light center">
         <div class="input-group">
@@ -162,130 +170,126 @@
               </div>
             </a>
           </div>
-        </div>
-        <!--Age-->
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">Age
-          <a class="dropdown-item" href="#">
-            <div class="input-group mb-3">
-              <div class="input-group-prepend">
-                <div class="input-group-text">
-                  <input type="checkbox" aria-label="Checkbox for following text input">0-2Y
-                </div>
-              </div>
-              <input type="text" class="form-control" aria-label="Text input with checkbox">
-            </div>
-          </a>
 
-          <a class="dropdown-item" href="#">
-            <div class="input-group mb-3">
-              <div class="input-group-prepend">
-                <div class="input-group-text">
-                  <input type="checkbox" aria-label="Checkbox for following text input">2-6Y
+          <!--Age-->
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">Age
+            <a class="dropdown-item" href="#">
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <div class="input-group-text">
+                    <input type="checkbox" aria-label="Checkbox for following text input">0-2Y
+                  </div>
                 </div>
+                <input type="text" class="form-control" aria-label="Text input with checkbox">
               </div>
-              <input type="text" class="form-control" aria-label="Text input with checkbox">
-            </div>
-          </a>
+            </a>
 
-          <a class="dropdown-item" href="#">
-            <div class="input-group mb-3">
-              <div class="input-group-prepend">
-                <div class="input-group-text">
-                  <input type="checkbox" aria-label="Checkbox for following text input">6 Over
+            <a class="dropdown-item" href="#">
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <div class="input-group-text">
+                    <input type="checkbox" aria-label="Checkbox for following text input">2-6Y
+                  </div>
                 </div>
+                <input type="text" class="form-control" aria-label="Text input with checkbox">
               </div>
-              <input type="text" class="form-control" aria-label="Text input with checkbox">
-            </div>
-          </a>
-        </div>
+            </a>
+
+            <a class="dropdown-item" href="#">
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <div class="input-group-text">
+                    <input type="checkbox" aria-label="Checkbox for following text input">6 Over
+                  </div>
+                </div>
+                <input type="text" class="form-control" aria-label="Text input with checkbox">
+              </div>
+            </a>
+          </div>
+
+          <!--Temperament-->
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">Temperament
+            <a class="dropdown-item" href="#">
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <div class="input-group-text">
+                    <input type="checkbox" aria-label="Checkbox for following text input">Calm
+                  </div>
+                </div>
+                <input type="text" class="form-control" aria-label="Text input with checkbox">
+              </div>
+            </a>
+
+            <a class="dropdown-item" href="#">
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <div class="input-group-text">
+                    <input type="checkbox" aria-label="Checkbox for following text input">Energetic
+                  </div>
+                </div>
+                <input type="text" class="form-control" aria-label="Text input with checkbox">
+              </div>
+            </a>
+
+            <a class="dropdown-item" href="#">
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <div class="input-group-text">
+                    <input type="checkbox" aria-label="Checkbox for following text input">Hyper Sensitive
+                  </div>
+                </div>
+                <input type="text" class="form-control" aria-label="Text input with checkbox">
+              </div>
+            </a>
+          </div>
+
+      </nav>
     </div>
-
-    <!--Temperament-->
-    <div class="dropdown-menu" aria-labelledby="navbarDropdown">Temperament
-      <a class="dropdown-item" href="#">
-        <div class="input-group mb-3">
-          <div class="input-group-prepend">
-            <div class="input-group-text">
-              <input type="checkbox" aria-label="Checkbox for following text input">Calm
-            </div>
-          </div>
-          <input type="text" class="form-control" aria-label="Text input with checkbox">
-        </div>
-      </a>
-
-      <a class="dropdown-item" href="#">
-        <div class="input-group mb-3">
-          <div class="input-group-prepend">
-            <div class="input-group-text">
-              <input type="checkbox" aria-label="Checkbox for following text input">Energetic
-            </div>
-          </div>
-          <input type="text" class="form-control" aria-label="Text input with checkbox">
-        </div>
-      </a>
-
-      <a class="dropdown-item" href="#">
-        <div class="input-group mb-3">
-          <div class="input-group-prepend">
-            <div class="input-group-text">
-              <input type="checkbox" aria-label="Checkbox for following text input">Hyper Sensitive
-            </div>
-          </div>
-          <input type="text" class="form-control" aria-label="Text input with checkbox">
-        </div>
-      </a>
-    </div>
   </div>
-
-  </nav>
-  </div>
-  </div>
-
   <!--Pet Carousel-->
-<div class="container-fluid">
-  <div class="container animals-carousel">
-    <h3 class="center">AVAILABLE ANIMALS(48)</h3>
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-      </ol>
+  <div class="container-fluid">
+    <div class="container animals-carousel">
+      <h3 class="center">AVAILABLE ANIMALS(48)</h3>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
 
-      <div class="carousel-inner pets-image">
-        <div class="animals">
-          <div class="carousel-item active pets">
-            <img src="images/Pets1.png" class="d-block" alt="...">
-          </div>
-          <div class="carousel-item pets">
-            <img src="images/Pets2.png" class="d-block" alt="...">
-          </div>
-          <div class="carousel-item pets">
-            <img src="images/Pets3.png" class="d-block" alt="...">
+        <div class="carousel-inner pets-image">
+          <div class="animals">
+            <div class="carousel-item active pets">
+              <img src="images/Pets3.png" class="d-block" alt="...">
+            </div>
+            <div class="carousel-item pets">
+              <img src="images/Pets1.png" class="d-block" alt="...">
+            </div>
+            <div class="carousel-item pets">
+              <img src="images/Pets2.png" class="d-block" alt="...">
+            </div>
           </div>
         </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-target="#carouselExampleInterval" data-slide="prev">
-      <img src="images/-arrow_back_ios.png">
-        <span class="sr-only">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-target="#carouselExampleInterval" data-slide="next">
-        <img src="images/-arrow_forward_ios.png">
-        <span class="sr-only">Next</span>
-      </button>
+        <button class="carousel-control-prev" type="button" data-target="#carouselExampleInterval" data-slide="prev">
+          <img src="images/-arrow_back_ios.png">
+          <span class="sr-only">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-target="#carouselExampleInterval" data-slide="next">
+          <img src="images/-arrow_forward_ios.png">
+          <span class="sr-only">Next</span>
+        </button>
 
+      </div>
+      <div class="cta-animals">
+        <a href="animals.html"><button type="button" class="btn see-all btn-secondary">SEE ALL ANIMALS</button></a>
+      </div>
     </div>
-  <div class="cta-animals">
-    <button type="button" class="btn see-all btn-secondary">SEE ALL ANIMALS</button>
   </div>
-  </div>
-</div>
 
   <!--Events-->
   <div class="container-fluid eventsbg">
     <div class="container events">
       <h3 class="center">EVENTS</h3>
-
       <div class="row">
         <div class="col-6">
           <img src="images/events-img.png">
@@ -295,9 +299,8 @@
             <h4>Our events are the best in the city!</h4>
             <p class="lead">If you're a dog lover or a dog owner, you know that few things are better than fun events
               that welcome both you and your pooch. We have plenty of dog events to offer, ranging from unique doggie
-              prom nights to surfing competitions to inspiring 5k runs and walks.
-            </p>
-            <a href="#"><button type="button" class="btn btn-primary">LEARN MORE</button></a>
+              prom nights to surfing competitions to inspiring 5k runs and walks.</p>
+            <a href="#"><button type="button" class="btn btn-primary learn-more">LEARN MORE</button></a>
           </div>
         </div>
       </div>
@@ -331,6 +334,7 @@
       </div>
     </div>
   </div>
+
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>

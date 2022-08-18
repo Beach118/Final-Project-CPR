@@ -74,13 +74,14 @@ body {
     display: flex;
     justify-content: end;
     align-items: flex-end;
+    text-align: left !important;
     flex-direction: column;
     height: 100%;
 }
 .display-4{
     text-align: left !important;
     display: flex;
-    justify-content:left 1;
+    justify-content:left;
     justify-items: left !important;
 }
 
@@ -105,11 +106,23 @@ h1 {
 
 }
 
+h2 {
+    color: #30167A;
+    margin-top: 40px;
+    margin-bottom: 60px;
+
+}
+
+.btn.btn-primary.steps {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
 .carousel-control-prev {
     color: #30167A;
 }
 
-.searchbar {
+.search-area {
     background-color: #F7EEFF;
 
 }
@@ -219,6 +232,11 @@ h4 {
 .events {
     justify-content: center;
     align-items: center;
+
+}
+
+.btn.learn-more{
+    margin-bottom: 100px;
 }
 
 .nav-footer {
@@ -240,3 +258,33 @@ h4 {
     align-items: right;
     ;
 }
+
+.adoption-hero{
+    background-image: url('../images/peach-bg.png');
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    
+}
+
+
+.adopt-img{
+margin-top: 20px;
+height: 50vh;
+}
+
+.container.cards{
+    margin-top:  60px;
+    margin-bottom: 60px;
+}
+
+.more-info{
+    margin-top:  60px;
+    margin-bottom: 60px; 
+}
+
+.col.card{
+ 
+}
+
