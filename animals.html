@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Chicago Pet Rescue</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="jquery-3.6.0.min.js"></script>
+
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+
+  <!--Header-->
+  <div class="container">
+    <nav class="navbar navbar-light justify-content-between">
+      <a class="navbar-brand" href="index.html"><img class="logo" src="images/CPR-Logo.png"></a>
+      <div class="row">
+        <div class="col-4 top-buttons">
+          <a href="adoption.html"><button type="button" class="btn btn-primary">ADOPT</button></a>
+        </div>
+        <div class="col-4 top-buttons">
+          <a href="#"></a><button type="button" class="btn btn-secondary">FOSTER</button></a>
+        </div>
+      </div>
+    </nav>
+
+  </div>
+
+  <!--Navigation-->
+  <div class="container-fluid nav"></div>
+  <nav class="nav nav-collapse justify-content-center navcenter">
+    <a class="nav-link" href="index.html" tabindex="-1" aria-disabled="true">Home</a>
+    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">About</a>
+    <a class="nav-link" href="adoption.html" tabindex="-1" aria-disabled="true">Adoption</a>
+    <a class="nav-link" href="animals.html" tabindex="-1" aria-disabled="true">Available Animals</a>
+    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">How You Can Help</a>
+    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">News & Events</a>
+    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Resources</a>
+    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact Us</a>
+    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">FAQs</a>
+  </nav>
+  </div>
+
+<div class="container">
+<h2 class="h2-available">AVAILABLE ANIMALS (48)</h2>
+</div>
+
+ <!--Filter-->
+ <div class="container search">
+ <nav class="navbar navbar-light center">
+    <div class="input-group">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+        aria-haspopup="true" aria-expanded="false">Filter</a>
+      <!--Size-->
+      <div class="dropdown-menu" aria-labelledby="navbarDropdown">Size
+        <a class="dropdown-item" href="#">
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <div class="input-group-text">
+                <input type="checkbox" aria-label="Checkbox for following text input">Small
+              </div>
+            </div>
+            <input type="text" class="form-control" aria-label="Text input with checkbox">
+          </div>
+        </a>
+
+        <a class="dropdown-item" href="#">
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <div class="input-group-text">
+                <input type="checkbox" aria-label="Checkbox for following text input">Medium
+              </div>
+            </div>
+            <input type="text" class="form-control" aria-label="Text input with checkbox">
+          </div>
+        </a>
+
+        <a class="dropdown-item" href="#">
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <div class="input-group-text">
+                <input type="checkbox" aria-label="Checkbox for following text input">Large
+              </div>
+            </div>
+            <input type="text" class="form-control" aria-label="Text input with checkbox">
+          </div>
+        </a>
+      </div>
+    </div>
+    <!--Age-->
+    <div class="dropdown-menu" aria-labelledby="navbarDropdown">Age
+      <a class="dropdown-item" href="#">
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <div class="input-group-text">
+              <input type="checkbox" aria-label="Checkbox for following text input">0-2Y
+            </div>
+          </div>
+          <input type="text" class="form-control" aria-label="Text input with checkbox">
+        </div>
+      </a>
+
+      <a class="dropdown-item" href="#">
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <div class="input-group-text">
+              <input type="checkbox" aria-label="Checkbox for following text input">2-6Y
+            </div>
+          </div>
+          <input type="text" class="form-control" aria-label="Text input with checkbox">
+        </div>
+      </a>
+
+      <a class="dropdown-item" href="#">
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <div class="input-group-text">
+              <input type="checkbox" aria-label="Checkbox for following text input">6 Over
+            </div>
+          </div>
+          <input type="text" class="form-control" aria-label="Text input with checkbox">
+        </div>
+      </a>
+    </div>
+</div>
+
+<!--Temperament-->
+<div class="dropdown-menu" aria-labelledby="navbarDropdown">Temperament
+  <a class="dropdown-item" href="#">
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <div class="input-group-text">
+          <input type="checkbox" aria-label="Checkbox for following text input">Calm
+        </div>
+      </div>
+      <input type="text" class="form-control" aria-label="Text input with checkbox">
+    </div>
+  </a>
+
+  <a class="dropdown-item" href="#">
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <div class="input-group-text">
+          <input type="checkbox" aria-label="Checkbox for following text input">Energetic
+        </div>
+      </div>
+      <input type="text" class="form-control" aria-label="Text input with checkbox">
+    </div>
+  </a>
+
+  <a class="dropdown-item" href="#">
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <div class="input-group-text">
+          <input type="checkbox" aria-label="Checkbox for following text input">Hyper Sensitive
+        </div>
+      </div>
+      <input type="text" class="form-control" aria-label="Text input with checkbox">
+    </div>
+  </a>
+</div>
+</div>
+
+</nav>
+</div>
+</div>
+</div>
+
+
+<div class="container">
+<img src="images/Pets3.png">
+<img src="images/Pets1.png">
+<img src="images/Pets2.png">
+<img src="images/Pets4.png">
+
+<a href="#"><button type="button" class="btn btn-primary steps">NEXT STEPS</button></a>
+</div>
+
+  <!--Footer-->
+  <div class="container-fluid nav-footer">
+    <div class="container">
+      <nav class="nav justify-content-left navleft">
+        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">About</a>
+        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Adoption</a>
+        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Foster</a>
+        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact Us</a>
+      </nav>
+    </div>
+  </div>
+
+  <div class="container  whitefooter">
+    <div class="row">
+      <div class="col-8">
+        <nav class="navbar navbar-light">
+          <a class="navbar-brand" href="#"><img class="logo" src="images/CPR-Logo.png"></a>
+      </div>
+      <div class="col-4 icons"><img class="social" src="images/fb.png">
+        <img class="social" src="images/twitter.png">
+        <img class="social" src="images/insta.png">
+        <img class="social" src="images/snap-chat.png">
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
