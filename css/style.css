@@ -54,8 +54,14 @@ body {
 
 }
 
+.dropdown-menu {
+    display: flex !important;
+    flex-direction: row;
+
+}
+
 .nav-link {
-    color: white;
+    color: white !important;
     background-color: #6505B5;
 }
 
