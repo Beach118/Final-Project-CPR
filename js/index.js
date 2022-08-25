@@ -36,6 +36,10 @@ $(".btn-secondary").mouseleave(function(){
   $ (this).css("background-color","white")
 });
 
+$(".dropdown-menu-flex").click(function(){
+$ (this).Dropdown('.dropdown-toggle')
+});
+
 
 
 
